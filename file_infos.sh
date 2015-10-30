@@ -1,9 +1,9 @@
 if [ -n $1 ]
 then
-	$group = cut -d' ' -f4 $1;
-	$user = cut -d' ' -f3 $1;
-	$rights = cut -d' ' -f1 $1;
-	echo 'group: $group / user: $user / rights: $rights'
+	$group = stat --format "%G" $1
+	$user = stat --format "%U" $1
+	$rights = stat --format "%A" $1
+	echo "group: $group / user: $user / rights: $rights"
 else
 	echo "error, pas de paramètre"
 fi
