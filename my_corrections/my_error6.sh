@@ -1,0 +1,1 @@
+grep -r -i 'my search string' ./
