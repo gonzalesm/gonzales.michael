@@ -1,4 +1,4 @@
-if [ -z $1 ]
+if [ -n $1 ]
 then
 	$group = cut -d' ' -f4 $1;
 	$user = cut -d' ' -f3 $1;
