@@ -1,0 +1,14 @@
+1) Git est un système de contrôle de version open-source, c'est à dire que Git permet en gros de versionner son code. De plus, Git offre la possibilité aux développeurs de travailler à plusieurs sur un même projet/fichier tout en évitant un maximum de conflits. On pourra savoir grâce à Git énormément de données, par exemple l'historique de modification d'un fichier, les différentes personnes qui l'ont modifié, ce qui a été ajouté ou supprimé, etc...
+
+2) GitHub est un site accès sur l'aspect communautaire de Git. On pourra par exemple, suivre des projets de personnes, les copier/récupérer (ou forker) car open source, intérargir avec les autres... On pourra y retrouver notamment ses repository (private ou public), ses paramètres de compte, ses ssh keys.
+
+3) Faire un commit signifie que l'on va mettre toutes les modifications réalisées en local sur le référentiel central. En ajoutant un commentaire au commit, on pourra avoir une vue d'ensemble dans l'historique et cela permettra de s'y retrouver. Par la suite, ce sera possible d'annuler un commit grâce à un revert.
+
+4) Générer une clef SSH pour GitHub permettra d'autoriser certaines personnes à modifier les fichier du repository concerné. Entre autre, donner une key ssh revient à donner les droits de modifications au compte GitHub d'un collègue. 
+
+5) Utiliser un système comme GIT a énormément d'avantages... En plus de citer ceux de la première question, GIT permet d'ajouter de la sécurité à des mises en prod, limiter les conflits ou erreurs, permettre à plusieurs personnes de travailler en même temps sur un même fichier, automatiser certaines actions, avoir un historique du développement réalisé...
+
+6) Après avoir commiter, il faut pusher sur la branche que l'on souhaite (e.g. master)
+git push origin master
+
+7) La branche principale sur un dépôt GIT est la branche appelée master. C'est souvent à partir d'elle que l'on commence à dev une feature. La branche master correspond entre autre au site en PROD. 
